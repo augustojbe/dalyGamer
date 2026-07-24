@@ -104,7 +104,7 @@ export default async function Game({
 
                  <h2 className="font-bold text-lg mt-7 mb-2">Plataformas</h2>
                 <div className="flex gap-2 flex-wrap">
-                    {data.platforms.map((i) => (
+                    {data.plataforms.map((i) => (
                         <Label name={i} key={i}/>
                     ))}
                 </div> 

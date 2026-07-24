@@ -116,7 +116,7 @@ export default async function Game({
                     ))}
                 </div> 
 
-                <p className="mt-7 mb-2"><strong>Data de lançamento:</strong> {data.release}</p>
+                <p className="mt-7 mb-2"><strong>Data de lançamento:</strong> {data.releasa}</p>
 
                 <h2 className="font-bold text-lg mt-7 mb-2">Jogo recomendado: </h2>
                 <div className="flex-grow">

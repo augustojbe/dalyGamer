@@ -104,7 +104,7 @@ export default async function Game({
 
                  <h2 className="font-bold text-lg mt-7 mb-2">Plataformas</h2>
                 <div className="flex gap-2 flex-wrap">
-                    {data.plataforms.map((i) => (
+                    {data.platforms.map((i) => (
                         <Label name={i} key={i}/>
                     ))}
                 </div> 
@@ -116,7 +116,7 @@ export default async function Game({
                     ))}
                 </div> 
 
-                <p className="mt-7 mb-2"><strong>Data de lançamento:</strong> {data.releasa}</p>
+                <p className="mt-7 mb-2"><strong>Data de lançamento:</strong> {data.release}</p>
 
                 <h2 className="font-bold text-lg mt-7 mb-2">Jogo recomendado: </h2>
                 <div className="flex-grow">
